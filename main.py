@@ -5,7 +5,7 @@ with open("config.json") as f:
 
 
 if config["users"][0]["age"] < 18:
-	exit("Users younger than 18 are not allowed!")
+	exit("Пользователям до 18 нельзя!")
 
 print("Hello world,", config["users"][0]["name"])
 
